@@ -1,23 +1,25 @@
 /* Colours */
-$ink: black;
+$ink: #0055FF;
+$primary: #FFE6F2;
+$secondary: #F9C9F8;
 
 /* Typography */
-$tera: 72px;
-$giga: 60px;
-$mega: 48px;
-$alpha: 34px;
-$beta: 24px;
+$tera: ;
+$giga: ;
+$mega: ;
+$alpha: 66px;
+$beta: 26px;
 $gamma: 18px;
-$delta: 16px;
-$epsilon: 14px;
-$zeta: 12px;
+$delta: ;
+$epsilon: ;
+$zeta: ;
 
 /* Typography */
+$light: 300;
 $regular: 400;
-$bold: 700;
 $body-size: $epsilon;
-$body-weight: $regular;
-$body-font: 'Karla', Helvetica, sans-serif;
+$body-weight: $light;
+$body-font: 'Rubik', sans-serif;
 
 /* Layout */
 $large: 1000px;

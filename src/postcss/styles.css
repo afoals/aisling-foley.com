@@ -5,3 +5,9 @@
 /* Base */
 @import "base/normalize";
 @import "base/base";
+
+/* Styles */
+@import "styles/grid";
+@import "styles/type";
+
+

@@ -1,0 +1,87 @@
+
+
+
+h1 {
+	font-size: $alpha;
+	font-weight: $regular;
+	margin: .2em 0;
+	z-index:5;
+	height: 190px;
+}
+
+h2 {
+	font-size: $beta;
+	font-weight: $regular;
+	margin: .2em 0;
+	margin-bottom: 2em;
+	background-color: $primary;
+}
+
+p {
+	font-size: $gamma;
+	font-weight: $regular;
+	max-width: 580px;
+	margin-left: 3em;
+}
+
+.dot::after {
+	position: relative;
+   	display: block;
+  	content: "";
+  	top: -170px;
+  	left:-30px;
+  	background-color: $secondary;
+  	height: 170px;
+  	width: 170px;
+  	z-index:-1;
+  	border-radius: 50%;
+
+}
+
+.intro {
+	margin: 8em 15em;
+	z-index: 20;
+}
+.grid {
+	position: fixed;
+	top: -280px;
+    left: 42px;
+    z-index: -2;
+    width: 234px;
+}
+
+
+
+::selection {
+  background: white; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: white; /* Gecko Browsers */
+}
+
+a {
+	color: $ink;
+	text-decoration:none;
+}
+
+.underline {
+	position: relative;
+    margin-bottom: 30px;
+}
+
+a::after {
+	content: "";
+	position: absolute;
+	display: block;
+	background-color: $secondary;
+	width: 100%;
+	height: 8px;
+	left: 0px;
+	bottom: -1px;
+    z-index: -1;
+  }
+
+a:hover:after {
+	background-color: white;
+	bottom: -1px;
+}

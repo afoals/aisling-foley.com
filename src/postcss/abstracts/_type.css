@@ -1,0 +1,15 @@
+h1 {
+	font-size: $alpha;
+	font-weight: 400;
+	color:red;
+}
+
+h2 {
+	font-size: $beta;
+	font-weight: $regular;
+}
+
+p {
+	font-size: $gamma;
+	font-weight: $regular;
+}

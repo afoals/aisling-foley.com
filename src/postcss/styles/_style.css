@@ -56,35 +56,6 @@ p {
 }
 
 
-@media screen and (max-width: 685px) {
-	h1 {
-		font-size: $mega;
-		height: 145px;
-	}
-
-	.dot::after {
-  		top: -156px;
-	}
-
-	h2 {
-		font-size: $gamma;
-	}
-
-	p {
-		font-size: $delta;
-	}
-
-}
-
-@media screen and (max-width: 666px) {
-	h1 {
-		height: 217px;
-	}
-	.dot::after {
-  		top: -179px;
-	}
-
-}
 
 /* ============================================================
  LINKS
@@ -143,13 +114,64 @@ a:hover:after {
     width: 234px;
 }
 
+/* ============================================================
+ MEDIA QUERIES
+============================================================ */
+
+/* LARGE - MEDIUM */
+
 @media (max-width:992px) and (min-width:685px) {
   .intro {
     min-width:500px;
   }
+
+}
+
+/* MEDIUM */
+
+@media screen and (max-width: 685px) {
+	h1 {
+		font-size: $mega;
+		height: 145px;
+	}
+
+	.dot::after {
+  		top: -156px;
+	}
+
+	h2 {
+		font-size: $gamma;
+	}
+
+	p {
+		font-size: $delta;
+	}
+
+}
+
+/* SMALL */
+
+@media screen and (max-width: 666px) {
+	h1 {
+		height: 217px;
+	}
+	.dot::after {
+  		top: -179px;
+	}
+
+	.grid {
+		top: -464px;
+    	left: -209px;
+	}
+	p {
+		margin-left: 0px;
+	}
+
 }
 
 
+
+/* EXTRA SMALL */
 @media screen and (max-width: 428px) {
 .intro {
 
@@ -157,6 +179,11 @@ a:hover:after {
     left: 30%;
     transform: translate(-30%, -30%);
 
+	}
+
+.grid {
+
+	top:-462px;
 	}
 }
 

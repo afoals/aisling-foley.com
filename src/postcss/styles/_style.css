@@ -65,6 +65,8 @@ a {
 	color: $ink;
 	text-decoration:none;
 	position: relative;
+	padding-top: 15px;
+	white-space: nowrap;
 }
 
 
@@ -81,7 +83,7 @@ a::after {
   }
 
 a:hover {
-	cursor: url(../../img/bluedot.png), auto;
+	cursor: url(../../img/linkdot.png), auto;
 }
 
 a:hover:after {

@@ -7,6 +7,29 @@ html {
 
 
 /* ============================================================
+ CUSTOM SOUND CURSOR
+============================================================ */
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit]
+{
+    cursor: url(/img/audiodot.png), auto;
+}
+
+input
+{
+	background-color:transparent;
+	border:none;
+	outline:none;
+	color: #0055ff;
+  	display: inline-block;
+  	padding:0px;
+}
+
+
+/* ============================================================
  TYPE
 ============================================================ */
 

@@ -47,13 +47,15 @@
       ga('send', 'pageview');
     </script>
 
+
 </head>
 <body>
 
 
   
   <div class="intro">
-    <h1 class="dot">hello,<br> i'm <span class="audio">aisling</span> foley</h1>
+    <audio id="aisling"> <source src="aisling.wav" type="audio/mpeg"></audio>
+    <h1 class="dot">hello,<br> i'm <input type="button" class="pronounce" value="aisling" onClick="Pronounce('aisling')"> foley</h1>
       
     <h2>a professional problem solver</h2>
      
@@ -65,10 +67,14 @@
     </p>
     <img class="grid" src="img/grid.svg"">
   </div>
-  
-  
 
+  
+<script type="text/javascript">
+    function Pronounce(soundobj){
+      var thissound=document.getElementById(soundobj);
+      thissound.play();
+    }
+</script>
 
-  <script src="js/main.js"></script>
 </body>
 </html>

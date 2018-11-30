@@ -2,7 +2,9 @@
  CURSOR
 ============================================================ */
 html {
-	cursor: url(/img/pinkdot.png), auto;
+    cursor: url("../../img/pinkdot.png") 0 0, pointer; /* Legacy */
+    cursor: url("../../img/pinkdot.svg") 0 0, pointer; /* FF */
+    cursor: -webkit-image-set(url("../../img/pinkdot.png") 1x, url("../../img/pinkdot@2.png") 2x) 0 0, pointer; /* Webkit */
 }
 
 
@@ -15,7 +17,9 @@ html input[type=button],
 input[type=reset],
 input[type=submit]
 {
-    cursor: url(/img/audiodot.png), auto;
+    cursor: url("../../img/audiodot.png") 40px 49px, pointer; /* Legacy */
+    cursor: url("../../img/audiodot.svg") 0 0, pointer; /* FF */
+    cursor: -webkit-image-set(url("../../img/audiodot.png") 1x, url("../../img/audiodot@2.png") 2x) 0 0, pointer; /* Webkit */
 }
 
 input
@@ -106,8 +110,11 @@ a::after {
   }
 
 a:hover {
-	cursor: url(../../img/linkdot.png), auto;
+    cursor: url("../../img/linkdot.png") 0 0, pointer; /* Legacy */
+    cursor: url("../../img/linkdot.svg") 0 0, pointer; /* FF */
+    cursor: -webkit-image-set(url("../../img/linkdot.png") 1x, url("../../img/linkdot@2.png") 2x) 0 0, pointer; /* Webkit */
 }
+	
 
 a:hover:after {
 	background-color: white; 
